@@ -21,7 +21,8 @@ Anomaly Detection code flow:
     - upper bound = $mean + \alpha*std$
     - lower bound = $mean - \alpha*std$
     - array_reg = [lower bound:upper bound]
-- For One-Class SVM, input a $\beta$ value to reduce the array size and optimize processing time.
+- For One-Class SVM, input a $\beta$ value to reduce the array size and optimize processing time of training without lettering.
+- Training Anomaly Detection methods
 - Define our statistic functions:
     - transitions -> 1 to -1 or -1 to 1 (== changes);
     - mantem_normal -> 1 to 1;
