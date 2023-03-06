@@ -15,6 +15,7 @@ Anomaly Detection code flow:
 
 3. Machine Learning Anomaly Detection methods application
 -- Anomalies = -1; Regular = 1;
+
 -- At this point, we have to optimize our training dataset. For that, we put a proportional bound ($\alpha$) to the standard deviation of mean, to extract the most likely probable values.
 -- Vectorizing the DataFrames values to calculate the mean and standard deviation
 -- Input $\alpha$ value to optimize the dataset, returning one regular array:
